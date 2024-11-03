@@ -9,8 +9,6 @@ This project is a simple Python application that checks the status of a Telegram
 - [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
