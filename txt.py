@@ -3,6 +3,8 @@ import time
 from flask import Flask
 import threading
 
+PORT = "YOUR_PORT_HERE"
+
 # Create a Flask app
 app = Flask(__name__)
 
@@ -12,7 +14,7 @@ def home():
 
 # Function to run the Flask app
 def run_flask():
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=PORT)
 
 # Function to check the bot's status
 def check_bot_status():
