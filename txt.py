@@ -16,7 +16,7 @@ def run_flask():
 
 # Function to check the bot's status
 def check_bot_status():
-    url = "http://t.me/seagame_top_up_bot/start"
+    url = "YOUR_URL_HERE"
     while True:
         try:
             response = requests.get(url)
