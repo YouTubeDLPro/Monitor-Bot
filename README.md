@@ -1,6 +1,6 @@
-# Telegram Bot Status Checker with Flask
+# Monitor Bot - Telegram Bot Status Checker with Flask
 
-This project is a simple Python application designed to check the status of a Telegram bot every few seconds while simultaneously running a small web server. The web server shows that the program is up and running, and the bot checker lets you know if the bot is online.
+This project is a simple Python application that checks the status of a Telegram bot every few seconds while running a Flask web server. The web server shows that the program is up and running, and the bot checker lets you know if the bot is online.
 
 ## Table of Contents
 - [Features](#features)
@@ -9,6 +9,9 @@ This project is a simple Python application designed to check the status of a Te
 - [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 - [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+
 ---
 
 ## Features
@@ -47,12 +50,12 @@ Step 1: Clone the Repository
 
 2. Type the following command and press Enter:
 
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/YouTubeDLPro/Monitor-Bot.git
 
 
 3. Go to the project directory:
 
-cd your-repo-name
+cd Monitor-Bot
 
 
 
@@ -75,7 +78,7 @@ Open the app.py file in any code editor (e.g., VS Code, PyCharm) or a text edito
 
 2. Set the Bot URL:
 
-Find the line in the code that says url = "http://t.me/seagame_top_up_bot/start" and replace it with the URL of your Telegram bot. (You may need to configure your bot's start URL depending on your setup.)
+Find the line in the code that says url = "YOUR_URL_HERE" and replace it with the URL of your Telegram bot. (You may need to configure your bot's start URL depending on your setup.)
 
 
 
@@ -145,4 +148,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Author
 
-Created by Your Name. Happy coding!
+Created by YouTubeDL. Happy coding!
